@@ -10,7 +10,7 @@
 //         console.log("gå köp ticket din åsna")
 //     }
 
-
+// ----------------------------------------
 
 let age = 14 
 let withAdult = false
@@ -22,6 +22,7 @@ if(age >= 15 || withAdult === true){
   console.log("gå hem med dig")
 }
 
+// ----------------------------------------
 
 const isLoggedIn = true;
 const userRole = "admin";
@@ -35,4 +36,24 @@ if (isLoggedIn === true) {
   }
 } else {
   console.log("Du måste logga in först!");
+}
+
+// ----------------------------------------
+
+const weather = "regn"
+switch (weather){
+  case "regn": 
+    console.log("ta med paraply")
+    break
+
+  case "sol":
+    console.log("glöm inte skorna")
+    break
+  
+  case "snö":
+    console.log(" ta på dig jacka")
+    break
+
+  default: console.log("kolla väderappen")
+
 }
